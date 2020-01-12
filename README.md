@@ -13,6 +13,7 @@
 9. ビンゴゲーム開始 (User.vue -> (Bingo.vue, History.vue) Admin.vue -> (Bingo.vue, History.vue, UserList.vue))
 10. ビンゴが揃ったら順位を表示 (User.vue -> (Bingo.vue, History.vue, Ranking.vue) Admin.vue -> (Bingo.vue, History.vue, Ranking.vue)
 11. 終了 IDがなくなる (Admin.vue)
+```
 
 ## Project setup
 ```
