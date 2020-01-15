@@ -12,7 +12,7 @@ Vue.use(VueQriously)
 export default {
   name: 'QRCode',
   data: () => ({
-    url: "1234567"
+    url: '1234567'
 
   })
 }
