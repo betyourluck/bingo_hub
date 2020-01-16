@@ -1,8 +1,14 @@
 <template>
   <div class="User">
-    <Bingo/>
-    <History/>
-    <Ranking/>
+    <div>
+      <Bingo/>
+    </div>
+    <div>
+      <History/>
+    </div>
+    <div>
+      <Ranking/>
+    </div>
   </div>
 </template>
 
