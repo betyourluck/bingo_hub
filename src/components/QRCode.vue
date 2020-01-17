@@ -1,7 +1,7 @@
 <template>
-  <div class="QRCode">
+  <v-layout class="QRCode" justify-center>
     <qriously :value="url" :size="200" />
-  </div>
+  </v-layout>
 </template>
 
 <script>
