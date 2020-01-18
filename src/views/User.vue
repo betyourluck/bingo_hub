@@ -1,15 +1,19 @@
 <template>
-  <div class="User">
-    <div>
-      <Bingo/>
-    </div>
-    <div>
-      <History/>
-    </div>
-    <div>
-      <Ranking/>
-    </div>
-  </div>
+  <v-container class="fill-height" fluid>
+    <v-layout text-center wrap>
+      <div class="User">
+        <div>
+          <Bingo/>
+        </div>
+        <div>
+          <History/>
+        </div>
+        <div>
+          <Ranking/>
+        </div>
+      </div>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
