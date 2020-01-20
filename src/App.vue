@@ -7,7 +7,7 @@
           transition="scale-transition"
           width="40"
         />
-        <p class="font-weight-black">Bingo!</p>
+        <v-toolbar-title>Bingo!</v-toolbar-title>
       </div>
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -19,6 +19,8 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  created () {C
+  }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <v-layout class="QRCode" justify-center>
-    <qriously :value="url" :size="200" />
+    <qriously class="white" :value="url" :size="200" />
   </v-layout>
 </template>
 
