@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'App',
-  created () {C
+  created () {
   }
 }
 </script>
