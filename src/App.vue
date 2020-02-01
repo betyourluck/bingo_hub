@@ -20,7 +20,9 @@
 <script>
 export default {
   name: 'App',
-  created () {
-  }
+
+  created: () => ({
+    flag: true
+  })
 }
 </script>
