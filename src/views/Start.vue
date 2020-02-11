@@ -21,6 +21,9 @@ import UserList from '@/components/UserList.vue'
 
 export default {
   name: 'Start',
+  data: () => ({
+    test: 'tests'
+  }),
   components: {
     QRCode,
     UserList

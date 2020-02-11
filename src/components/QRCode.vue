@@ -1,6 +1,9 @@
 <template>
   <v-layout class="QRCode" justify-center>
-    <qriously class="white" :value="url" :size="200" />
+    <v-col cols="8" md="12">
+      <p>参加者にバーコードを読み取らせてください</p>
+      <qriously class="white" :value="url" :size="200" />
+    </v-col>
   </v-layout>
 </template>
 
@@ -13,7 +16,6 @@ export default {
   name: 'QRCode',
   data: () => ({
     url: '1234567'
-
   })
 }
 </script>
